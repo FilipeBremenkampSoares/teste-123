@@ -1,5 +1,5 @@
 import { TextBold } from '../text/styles';
-import { ButtonContainer, CircleButtonContainer, RoundedButtonContainer} from './styles'
+import { ButtonContainer, CircleButtonContainer, RoundedButtonContainer } from './styles';
 
 export const PrimaryButton = ({ label, onPress }) => {
   return(
@@ -20,7 +20,7 @@ export const RoundedButton = ({ label, onPress }) =>{
 export const CircleButton = ({label, onPress }) => {
  return (
   <CircleButtonContainer onPress={onPress}>
-    <TextBold font-size={32}>{label}</TextBold>
+    <TextBold fontSize={32}>{label}</TextBold>
   </CircleButtonContainer>
- )
-}
+ );
+};

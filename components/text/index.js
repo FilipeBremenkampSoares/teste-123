@@ -2,8 +2,7 @@ import { TextBold, TextRegular } from "./styles";
 
 export const AppName = () => {
  return <TextBold fontSize="24px">Gorjetão</TextBold>
-
-}
+};
 
 export const Title = ({ text }) => {
  return <TextBold>{text}</TextBold>
@@ -14,9 +13,9 @@ return <TextRegular variant={variant}>{text}</TextRegular>
 };
 
 
-const defaultValueSize = 'medium'
+const defaultValueSize = 'medium';
 
-export const Value = ({value, size = "medium" }) => {
+export const Value = ({value, size="medium" }) => {
 const sizes ={
   large:36,
   medium:32,
